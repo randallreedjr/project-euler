@@ -1,32 +1,41 @@
-def largest_palindrome
-  number1=999
-  number2=999
-  max_palindrome = 0
-  max_number1 = 0
-  max_number2 = 
-  iterations = 0
-  while number1 >= 100
-    while number2 >= 100
-      iterations += 1
-      product = number2 * number1
-      if product > max_palindrome && palindrome?(product)
-        max_palindrome = product
-        max_number1 = number1
-        max_number2 = number2
-      end
-      number2 -= 1
-    end
-    number2 = number1-1
-    number1 -= 1
+class Palindrome
+  def initialize(lower_bound, upper_bound)
+    @lower_bound = lower_bound
+    @upper_bound = upper_bound
+    @max_factors = [0,0]
+    @iterations = 0
   end
 
-  puts max_palindrome
-  puts "#{max_number1} * #{max_number2}"
-  puts "#{iterations} times"
+  def largest_product
+    @upper_bound.downto(@lower_bound) do |first_factor|
+      break if first_factor * @upper_bound < @max_factors.inject(:*)
+      @upper_bound.downto(@lower_bound) do |second_factor|
+        check_product(first_factor, second_factor)
+      end
+    end
+  end
+
+  def print
+    puts @max_factors.inject(:*)
+    puts "#{@max_factors[0]} * #{@max_factors[1]}"
+    puts "#{@iterations} times"
+  end
+
+  private 
+  def self.palindrome?(number)
+    number.to_s.reverse == number.to_s
+  end
+
+  def check_product(first_factor, second_factor)
+    @iterations += 1
+    product = first_factor * second_factor
+    if self.class.palindrome?(product) && product > @max_factors.inject(:*)
+      @max_factors = [first_factor, second_factor]
+    end
+  end
 end
 
-def palindrome?(number)
-  number.to_s.reverse == number.to_s
-end
+largest_palindrome = Palindrome.new(100, 999)
+largest_palindrome.largest_product
+largest_palindrome.print
 
-largest_palindrome
