@@ -1,3 +1,4 @@
+require 'prime'
 class PrimeFactorization
   def initialize(number)
     @number = number
@@ -13,21 +14,22 @@ class PrimeFactorization
 
   private
   def prime_factor?(divisor)
-    if @number % divisor == 0
-      @primes[@number/divisor] ||= prime?(@number/divisor)
-    end
+    # if @number % divisor == 0
+    #   @primes[@number/divisor] ||= prime?(@number/divisor)
+    # end
+    @number % divisor == 0 && Prime.prime?(@number/divisor)
   end
 
-  def prime?(number)
-    if number < 2
-      return false
-    elsif number > 2
-      (2..number ** 0.5).each do |i|
-        return false if number % i == 0
-      end
-    end
-    return true
-  end
+  # def prime?(number)
+  #   if number < 2
+  #     return false
+  #   elsif number > 2
+  #     (2..number ** 0.5).each do |i|
+  #       return false if number % i == 0
+  #     end
+  #   end
+  #   return true
+  # end
 end
 
 factor = PrimeFactorization.new(600851475143)
