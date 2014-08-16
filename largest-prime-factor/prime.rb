@@ -1,4 +1,4 @@
-class Prime
+class PrimeFactorization
   def initialize(number)
     @number = number
     @primes = {}
@@ -29,7 +29,6 @@ class Prime
     return true
   end
 end
-puts Time.now
-factor = Prime.new(600851475143)
+
+factor = PrimeFactorization.new(600851475143)
 puts factor.largest_prime_factor
-puts Time.now
