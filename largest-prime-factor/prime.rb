@@ -5,7 +5,7 @@ class Prime
   end
 
   def largest_prime_factor()
-    return @number if @number == 2
+    return 2 if @number % 2 == 0
     (3..@number/3).step(2) do |divisor|
       return @number/divisor if prime_factor?(divisor)
     end
