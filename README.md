@@ -31,3 +31,8 @@ Solutions to problems from Project Euler
 [Project Euler page](https://projecteuler.net/problem=14)
 
 [My solution](https://github.com/randallreedjr/project-euler/tree/master/014-longest-collatz-sequence)
+
+##Problem 20 - Factorial Digit Sum##
+[Project Euler page](https://projecteuler.net/problem=20)
+
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/020-factorial-digit-sum)
