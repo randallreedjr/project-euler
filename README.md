@@ -2,6 +2,11 @@
 
 Solutions to problems from Project Euler
 
+##Problem 1 - Multiples of 3 and 5##
+[Project Euler page](https://projecteuler.net/problem=1)
+
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/001-multiples)
+
 ##Problem 3 - Largest prime factor##
 [Project Euler page](https://projecteuler.net/problem=3)
 
