@@ -7,6 +7,11 @@ Solutions to problems from Project Euler
 
 [My solution](https://github.com/randallreedjr/project-euler/tree/master/001-multiples)
 
+##Problem 2 - Even Fibonacci Numbers##
+[Project Euler page](https://projecteuler.net/problem=2)
+
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/002-even-fibonacci-numbers)
+
 ##Problem 3 - Largest prime factor##
 [Project Euler page](https://projecteuler.net/problem=3)
 
