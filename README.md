@@ -15,14 +15,19 @@ Solutions to problems from Project Euler
 ##Problem 3 - Largest prime factor##
 [Project Euler page](https://projecteuler.net/problem=3)
 
-[My solution](https://github.com/randallreedjr/project-euler/tree/master/largest-prime-factor)
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/003-largest-prime-factor)
 
 ##Problem 4 - Largest palindrome product##
 [Project Euler page](https://projecteuler.net/problem=4)
 
-[My solution](https://github.com/randallreedjr/project-euler/tree/master/largest-palindrome-euler)
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/004-largest-palindrome-product)
+
+##Problem 6 - Sum Square Difference##
+[Project Euler page](https://projecteuler.net/problem=6)
+
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/006-sum-square-difference)
 
 ##Problem 14 - Longest Collatz sequence##
 [Project Euler page](https://projecteuler.net/problem=14)
 
-[My solution](https://github.com/randallreedjr/project-euler/tree/master/longest-collatz)
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/014-longest-collatz-sequence)
