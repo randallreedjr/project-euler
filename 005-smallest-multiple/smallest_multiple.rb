@@ -1,3 +1,5 @@
+require 'prime'
+
 class SmallestMultiple
   attr_reader :divisors
 
@@ -14,23 +16,20 @@ class SmallestMultiple
       @divisors = (1..max_divisor).to_a.reverse[0..max_divisor/2]
     end
   end
-  
-  def calculate
-    test_number = 0
-    divisible = false
-    until divisible
-      test_number += @max_divisor.even? ? (@max_divisor * (@max_divisor -1)) : @max_divisor * 2
-      divisible = divisible_by_all?(test_number)
+
+  def find_prime_factors
+    prime_factors = {}
+    @divisors.each do |divisor|
+      # add prime factors that don't already exist
+      factors = divisor.prime_division
+      factors.each do |factor, power|
+        prime_factors[factor] = [prime_factors[factor].to_i, power].max
+      end
     end
-    test_number
+    prime_factors
   end
 
-  private
-  def divisible_by_all?(number)
-    @divisors.detect {|divisor| !divisible_by_divisor?(number, divisor)}.nil?
-  end
-
-  def divisible_by_divisor?(number, divisor)
-    number % divisor == 0
+  def calculate
+    find_prime_factors.collect { |factor, power| factor ** power }.inject(&:*)
   end
 end
