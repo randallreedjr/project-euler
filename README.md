@@ -52,6 +52,11 @@ Solutions to problems from Project Euler
 
 [My solution](https://github.com/randallreedjr/project-euler/tree/master/010-prime-summation)
 
+## Problem 11 - Largest product in a grid
+[Project Euler page](https://projecteuler.net/problem=11)
+
+[My solution](https://github.com/randallreedjr/project-euler/tree/master/011-largest-product-grid)
+
 ## Problem 14 - Longest Collatz sequence
 [Project Euler page](https://projecteuler.net/problem=14)
 
