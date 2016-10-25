@@ -58,6 +58,10 @@ Solutions to problems from Project Euler
 [Project Euler page](https://projecteuler.net/problem=14)
  | [My solution](https://github.com/randallreedjr/project-euler/tree/master/014-longest-collatz-sequence)
 
+## Problem 15 - Lattice paths
+[Project Euler page](https://projecteuler.net/problem=15)
+ | [My solution](https://github.com/randallreedjr/project-euler/tree/master/015-lattice-paths)
+
 ## Problem 17 - Number letter counts
 [Project Euler page](https://projecteuler.net/problem=17)
  | [My solution](https://github.com/randallreedjr/project-euler/tree/master/017-number-letter-counts)
