@@ -62,6 +62,10 @@ Solutions to problems from Project Euler
 [Project Euler page](https://projecteuler.net/problem=15)
  | [My solution](https://github.com/randallreedjr/project-euler/tree/master/015-lattice-paths)
 
+## Problem 16 - Power digit sum
+[Project Euler page](https://projecteuler.net/problem=16)
+ | [My solution](https://github.com/randallreedjr/project-euler/tree/master/016-power-digit-sum)
+
 ## Problem 17 - Number letter counts
 [Project Euler page](https://projecteuler.net/problem=17)
  | [My solution](https://github.com/randallreedjr/project-euler/tree/master/017-number-letter-counts)
