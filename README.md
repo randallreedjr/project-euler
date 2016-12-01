@@ -70,6 +70,10 @@ Solutions to problems from Project Euler
 [Project Euler page](https://projecteuler.net/problem=17)
  | [My solution](https://github.com/randallreedjr/project-euler/tree/master/017-number-letter-counts)
 
+## Problem 19 - Counting Sundays
+[Project Euler page](https://projecteuler.net/problem=19)
+ | [My solution](https://github.com/randallreedjr/project-euler/tree/master/019-counting-sundays)
+
 ## Problem 20 - Factorial Digit Sum
 [Project Euler page](https://projecteuler.net/problem=20)
  | [My solution](https://github.com/randallreedjr/project-euler/tree/master/020-factorial-digit-sum)
