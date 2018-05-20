@@ -1,10 +1,5 @@
 class Amicable
-  # def initialize(*numbers)
-  #   @numbers = numbers if numbers.length == 2
-  # end
-
   def pair?(*numbers)
-    # @numbers = numbers if @numbers.empty?
     new_pair = numbers.map do |number|
       ProperDivisor.new(number).sum
     end
