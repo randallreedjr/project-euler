@@ -78,5 +78,16 @@ Solutions to problems from Project Euler
 [Project Euler page](https://projecteuler.net/problem=20)
  | [My solution](https://github.com/randallreedjr/project-euler/tree/master/020-factorial-digit-sum)
 
-## Problem 23 - Non-abundant sums
+## Problem 21 - Amicable Numbers
+[Project Euler page](https://projecteuler.net/problem=21)
+ | [My solution](https://github.com/randallreedjr/project-euler/tree/master/021-amicable-numbers)
+
+## Problem 22 - Name Scores
+[Project Euler page](https://projecteuler.net/problem=22)
+ | [My solution](https://github.com/randallreedjr/project-euler/tree/master/022-name-scores)
+
+## Problem 23 - Non-abundant Sums
 [Project Euler page](https://projecteuler.net/problem=23) | [My solution](https://github.com/randallreedjr/project-euler/tree/master/023-non-abundant-sums)
+
+## Problem 24 - Lexicographic Permutations
+[Project Euler page](https://projecteuler.net/problem=24) | [My solution](https://github.com/randallreedjr/project-euler/tree/master/024-lexicographic-permutations)
