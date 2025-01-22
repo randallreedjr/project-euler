@@ -91,3 +91,6 @@ Solutions to problems from Project Euler
 
 ## Problem 24 - Lexicographic Permutations
 [Project Euler page](https://projecteuler.net/problem=24) | [My solution](https://github.com/randallreedjr/project-euler/tree/master/024-lexicographic-permutations)
+
+## Problem 25 - 1000-digit Fibonacci Number
+[Project Euler page](https://projecteuler.net/problem=25) | [My solution](https://github.com/randallreedjr/project-euler/tree/master/025-1000-digit-fibonacci)
