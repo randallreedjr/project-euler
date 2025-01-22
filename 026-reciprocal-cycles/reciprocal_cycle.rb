@@ -1,10 +1,11 @@
 class ReciprocalCycle
-  attr_reader :number
+  attr_reader :number, :length
+
   def initialize(denominator)
     @denominator = denominator
     numerator = 10
     @string_result = "0."
-    30.times do |i|
+    60.times do |i|
       result = numerator / denominator
       @string_result += result.to_s
       if result == 0
@@ -33,10 +34,9 @@ class ReciprocalCycle
   end
 
   def repeating?
-    # digits[0] == digits[1]
-    # All digits the same
-    # return false if digits.length == 1
-    # return true if !digits.any? {|d| d != digits[0]}
+    # Need to be able to detect repeated patterns that don't start right away
+    # Like 1/6 = 0.1666666
+    # Or 1/948 = 0.00{1054852320675}
     length > 0
   end
 
