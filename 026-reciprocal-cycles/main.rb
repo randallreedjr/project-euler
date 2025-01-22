@@ -60,9 +60,9 @@ puts ""
 
 # puts 1.0/81.0
 # puts 1.0/81.0 * 1000000 - 12345
-require 'bigdecimal'
-num = BigDecimal.new('1.0')/BigDecimal.new('81.0')
-puts num
-puts (num * 1000000000) - 12345679
-puts num.to_s
-puts num.inspect
+# require 'bigdecimal'
+# num = BigDecimal.new('1.0')/BigDecimal.new('81.0')
+# puts num
+# puts (num * 1000000000) - 12345679
+# puts num.to_s
+# puts num.inspect
