@@ -4,9 +4,9 @@ require 'pry'
 
 
 bf = BigFib.new
-i = 4001
+i = 0
 first_digit = '0'
-while first_digit == '0' && i < 4101
+while first_digit == '0' && i < 5101
   my_num = bf.calculate(i)
   puts "Fibonacci #{i} is #{my_num}\n\n"
   first_digit = my_num.to_s[0]
@@ -23,4 +23,6 @@ puts "Stopped at #{i-1}: #{my_num}"
 # puts bf.calculate(6)
 # puts bf.calculate(11)
 # puts bf.calculate(12)
-puts bf.calculate(500) # 139423224561697880139724382870407283950070256587697307264108962948325571622863290691557658876222521294125
+# puts bf.calculate(500) # 139423224561697880139724382870407283950070256587697307264108962948325571622863290691557658876222521294125
+# puts bf.calculate(501)
+# bf.print_last

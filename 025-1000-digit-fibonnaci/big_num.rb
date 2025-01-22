@@ -6,7 +6,7 @@ class BigNum
   end
 
   def add(addend)
-    rev_addend = addend.reverse
+    rev_addend = extract_digits(addend).reverse
     rev_digits = @digits.reverse
     sum_array = Array.new(@max_capacity, 0)
     carry = 0
@@ -25,6 +25,10 @@ class BigNum
 
   def reverse
     return @digits.reverse
+  end
+
+  def extract_digits(num)
+    num.to_s.split('').map(&:to_i)
   end
 
   def to_s
